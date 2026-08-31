@@ -1,250 +1,92 @@
-# 🧮 Calculadora Universal em C
+# 📚 Desenvolvimento de Algoritmos e Pensamento Computacional
 
-![Linguagem](https://img.shields.io/badge/Linguagem-C-blue.svg)
-![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen.svg)
-![Plataforma](https://img.shields.io/badge/Plataforma-Multiplataforma-lightgrey.svg)
+Repositório destinado às **atividades, exercícios e projetos** desenvolvidos durante a disciplina de **Desenvolvimento de Algoritmos e Pensamento Computacional** da faculdade.
 
-> **Atividade avaliativa da disciplina de Algoritmos e Pensamento Computacional.**
-
-**🇧🇷 Português** | [🇺🇸 English](#-english)
+Este repositório reúne os trabalhos realizados ao longo da disciplina e será atualizado conforme novos conteúdos, exercícios e projetos forem desenvolvidos durante o semestre.
 
 ---
 
-# 🇧🇷 Português
+## 📂 Atividades
 
-## 📋 Sobre o Projeto
+### 🧮 Calculadora em C
 
-A **Calculadora Universal** é um programa desenvolvido em **linguagem C** que reúne diversas funcionalidades matemáticas e utilitárias em uma única aplicação, acessadas por meio de um menu principal.
+Primeira atividade disponível no repositório: uma **calculadora desenvolvida em linguagem C**, contendo diferentes funcionalidades matemáticas e utilitárias.
 
-O projeto foi inicialmente desenvolvido como um algoritmo no **Flowgorithm** e, posteriormente, portado para a linguagem **C**, aplicando conceitos fundamentais de lógica de programação e desenvolvimento de algoritmos.
+O projeto foi inicialmente desenvolvido como algoritmo utilizando o **Flowgorithm** e posteriormente implementado na linguagem **C**, aplicando na prática conceitos de lógica de programação, estruturas condicionais, entrada e saída de dados e operações matemáticas.
 
----
+📁 **[Acessar atividade — Calculadora em C](./calculadora-em-C/)**
 
-## ⚙️ Funcionalidades
+#### ⚙️ Funcionalidades
 
-|  Nº | Função                           | Descrição                                                                           |
-| :-: | -------------------------------- | ----------------------------------------------------------------------------------- |
-|  1  | 📐 **Cálculo de Área**           | Calcula a área de quadriláteros, triângulos, círculos e losangos                    |
-|  2  | ⚖️ **Cálculo de IMC**            | Calcula o Índice de Massa Corporal e exibe sua classificação                        |
-|  3  | 🧮 **Calculadora Simples**       | Soma, subtração, multiplicação, divisão e potenciação                               |
-|  4  | 🌡️ **Conversor de Temperatura** | Converte Celsius para Fahrenheit ou Kelvin                                          |
-|  5  | 🔢 **Par ou Ímpar**              | Verifica se um número é par ou ímpar                                                |
-|  6  | 💰 **Cálculo de Desconto**       | Calcula o valor final de um produto após um desconto percentual                     |
-|  7  | ⚖️ **Comparador de Valores**     | Identifica o maior entre dois números                                               |
-|  8  | 📏 **Conversor de Unidades**     | Converte metros para milímetros, centímetros, decímetros, hectômetros e quilômetros |
+A calculadora possui diferentes operações e ferramentas, incluindo:
 
----
-
-## 🚀 Como Compilar e Executar
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional.git
-```
-
-### 2. Acesse a pasta do projeto
-
-```bash
-cd desenvolvimento-de-algoritmo-e-pensamento-computacional/calculadora-em-C
-```
-
-### 3. Compile o programa
-
-```bash
-gcc calculadora.c -o calculadora -lm
-```
-
-### 4. Execute
-
-**Linux/macOS:**
-
-```bash
-./calculadora
-```
-
-**Windows:**
-
-```bash
-calculadora.exe
-```
-
-> 💡 A flag `-lm` é utilizada para vincular a biblioteca matemática `math.h`, necessária para algumas operações realizadas pelo programa.
+* 📐 Cálculo de áreas
+* ⚖️ Cálculo de IMC
+* ➕ Operações matemáticas básicas
+* 🔢 Potenciação
+* 🌡️ Conversão de temperatura
+* 🔍 Verificação de número par ou ímpar
+* 💰 Cálculo de descontos
+* 📊 Comparação de valores
+* 📏 Conversão de unidades
 
 ---
 
-## 🖥️ Requisitos
+## 🚀 Objetivo do Repositório
 
-Para compilar e executar o projeto, é necessário possuir:
+O objetivo deste repositório é **centralizar e organizar as atividades desenvolvidas durante a disciplina**, permitindo acompanhar minha evolução nos estudos de:
 
-* Um compilador para **C**
-* **GCC** recomendado
-* Windows, Linux ou macOS
+* Lógica de programação
+* Desenvolvimento de algoritmos
+* Pensamento computacional
+* Resolução de problemas
+* Estruturas e fundamentos da programação
 
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* **C**
-* **GCC**
-* **math.h**
-* **Flowgorithm**
+Novas atividades serão adicionadas ao longo da disciplina, formando um histórico dos exercícios e projetos desenvolvidos durante o semestre.
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🛠️ Tecnologias
+
+As atividades podem utilizar diferentes linguagens e ferramentas conforme os conteúdos trabalhados durante a disciplina.
+
+Atualmente:
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge\&logo=c\&logoColor=white)
+![Flowgorithm](https://img.shields.io/badge/Flowgorithm-Algorithm%20Design-4B8BBE?style=for-the-badge)
+
+Outras tecnologias poderão ser adicionadas conforme o avanço da disciplina.
+
+---
+
+## 📌 Organização
+
+Cada atividade será armazenada em sua própria pasta, contendo os arquivos necessários para execução e, quando necessário, um `README.md` específico com informações sobre o projeto.
 
 ```text
-calculadora-em-C/
+desenvolvimento-de-algoritmo-e-pensamento-computacional/
 │
-├── calculadora.c
-├── LICENSE
-└── README.md
-```
-
----
-
-## 👥 Equipe
-
-| Integrante                    |
-| ----------------------------- |
-| **Piêtro Bittencourt Nunes**  |
-| **Zamorano Fragoso de Sousa** |
-| **Gabriel Valois Rodrigues**  |
-| **Bernardo Kopp**             |
-
----
-
-## 📄 Licença
-
-Este projeto está sob a **Licença MIT**.
-
-Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
-
----
-
-# 🇺🇸 English
-
-[🇧🇷 Voltar para Português](#-português)
-
-## 📋 About the Project
-
-The **Universal Calculator** is a program developed in **C** that combines several mathematical and utility features into a single application, accessible through a main menu.
-
-The project was initially developed as an algorithm using **Flowgorithm** and was later ported to **C**, applying fundamental concepts of programming logic and algorithm development.
-
----
-
-## ⚙️ Features
-
-| No. | Feature                       | Description                                                                          |
-| :-: | ----------------------------- | ------------------------------------------------------------------------------------ |
-|  1  | 📐 **Area Calculator**        | Calculates the area of quadrilaterals, triangles, circles, and rhombuses             |
-|  2  | ⚖️ **BMI Calculator**         | Calculates Body Mass Index and displays its classification                           |
-|  3  | 🧮 **Simple Calculator**      | Addition, subtraction, multiplication, division, and exponentiation                  |
-|  4  | 🌡️ **Temperature Converter** | Converts Celsius to Fahrenheit or Kelvin                                             |
-|  5  | 🔢 **Even or Odd**            | Checks whether a number is even or odd                                               |
-|  6  | 💰 **Discount Calculator**    | Calculates the final price of a product after a percentage discount                  |
-|  7  | ⚖️ **Value Comparator**       | Identifies the larger of two numbers                                                 |
-|  8  | 📏 **Unit Converter**         | Converts meters to millimeters, centimeters, decimeters, hectometers, and kilometers |
-
----
-
-## 🚀 How to Compile and Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional.git
-```
-
-### 2. Open the project directory
-
-```bash
-cd desenvolvimento-de-algoritmo-e-pensamento-computacional/calculadora-em-C
-```
-
-### 3. Compile the program
-
-```bash
-gcc calculadora.c -o calculadora -lm
-```
-
-### 4. Run
-
-**Linux/macOS:**
-
-```bash
-./calculadora
-```
-
-**Windows:**
-
-```bash
-calculadora.exe
-```
-
-> 💡 The `-lm` flag links the mathematical library `math.h`, which is required for some of the operations performed by the program.
-
----
-
-## 🖥️ Requirements
-
-To compile and run the project, you will need:
-
-* A **C compiler**
-* **GCC** recommended
-* Windows, Linux, or macOS
-
----
-
-## 🛠️ Technologies
-
-* **C**
-* **GCC**
-* **math.h**
-* **Flowgorithm**
-
----
-
-## 📂 Project Structure
-
-```text
-calculadora-em-C/
+├── calculadora-em-C/
+│   ├── calculadora.c
+│   └── README.md
 │
-├── calculadora.c
-├── LICENSE
-└── README.md
+└── novas-atividades/
+    └── ...
 ```
 
 ---
 
-## 👥 Team
+## 📈 Progresso
 
-| Member                        |
-| ----------------------------- |
-| **Piêtro Bittencourt Nunes**  |
-| **Zamorano Fragoso de Sousa** |
-| **Gabriel Valois Rodrigues**  |
-| **Bernardo Kopp**             |
+Este repositório será atualizado durante o semestre conforme novas atividades forem desenvolvidas.
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-See the [LICENSE](./LICENSE) file for more information.
+| Atividade                | Tecnologia      | Status      |
+| ------------------------ | --------------- | ----------- |
+| 🧮 Calculadora Universal | C / Flowgorithm | ✅ Concluída |
+| 📚 Próximas atividades   | —               | ⏳ Em breve  |
 
 ---
 
-<div align="center">
+### 👨‍💻 Sobre
 
-### 🧮 Universal Calculator
-
-**Developed as part of the Algorithms and Computational Thinking course.**
-
-Made with ☕ and C.
-
-</div>
+Projeto acadêmico desenvolvido como parte da disciplina de **Desenvolvimento de Algoritmos e Pensamento Computacional**, com o objetivo de registrar a evolução prática dos conhecimentos adquiridos ao longo do curso.
