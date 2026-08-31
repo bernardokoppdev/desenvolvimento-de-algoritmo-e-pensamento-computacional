@@ -1,0 +1,124 @@
+# 📚 Desenvolvimento de Algoritmos e Pensamento Computacional
+
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)
+![Disciplina](https://img.shields.io/badge/Disciplina-Algoritmos%20e%20Pensamento%20Computacional-blue.svg)
+![Linguagem](https://img.shields.io/badge/Linguagem-C-00599C.svg)
+![Projetos](https://img.shields.io/badge/Projetos-1-success.svg)
+
+> Repositório acadêmico destinado às atividades, exercícios e projetos desenvolvidos durante a disciplina de **Desenvolvimento de Algoritmos e Pensamento Computacional**.
+
+---
+
+## 📖 Sobre o Repositório
+
+Este repositório reúne os trabalhos desenvolvidos ao longo da disciplina de **Desenvolvimento de Algoritmos e Pensamento Computacional**, servindo como um espaço para organizar e documentar minha evolução durante o semestre.
+
+Novas **atividades, exercícios e projetos** serão adicionados conforme o avanço dos conteúdos da disciplina.
+
+---
+
+## 📂 Atividades
+
+### 🧮 01 — Calculadora Universal em C
+
+Primeiro projeto disponível no repositório: uma **calculadora desenvolvida em linguagem C** que reúne diferentes funcionalidades matemáticas e utilitárias em um único programa.
+
+O projeto foi inicialmente desenvolvido como algoritmo no **Flowgorithm** e posteriormente implementado em **C**.
+
+### ⚙️ Funcionalidades
+
+* 📐 Cálculo de áreas
+* ⚖️ Cálculo de IMC
+* ➕ Operações matemáticas básicas
+* 🔢 Potenciação
+* 🌡️ Conversão de temperatura
+* 🔍 Verificação de número par ou ímpar
+* 💰 Cálculo de descontos
+* 📊 Comparação de valores
+* 📏 Conversão de unidades
+
+### 🔗 Acessar Projeto
+
+➡️ **[Calculadora Universal em C](./calculadora-em-C)**
+
+---
+
+## 🚀 Objetivo
+
+O objetivo deste repositório é **centralizar e organizar as atividades desenvolvidas durante a disciplina**, permitindo acompanhar a evolução dos conhecimentos adquiridos em:
+
+* 🧠 Lógica de programação
+* 🧩 Desenvolvimento de algoritmos
+* 💻 Programação
+* 🔄 Estruturas de controle
+* 📊 Resolução de problemas
+* ⚙️ Pensamento computacional
+
+Ao longo do semestre, novas atividades serão adicionadas, formando um histórico dos exercícios e projetos realizados durante a disciplina.
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+As atividades podem utilizar diferentes linguagens e ferramentas conforme os conteúdos trabalhados durante a disciplina.
+
+| Tecnologia      | Utilização                                |
+| --------------- | ----------------------------------------- |
+| **C**           | Desenvolvimento dos programas             |
+| **Flowgorithm** | Criação e visualização de algoritmos      |
+| **GCC**         | Compilação dos códigos em C               |
+| **Git**         | Controle de versão                        |
+| **GitHub**      | Armazenamento e documentação dos projetos |
+
+---
+
+## 📁 Estrutura do Repositório
+
+```text
+desenvolvimento-de-algoritmo-e-pensamento-computacional/
+│
+├── calculadora-em-C/
+│   ├── calculadora.c
+│   ├── LICENSE
+│   └── README.md
+│
+├── futuras-atividades/
+│   └── ...
+│
+└── README.md
+```
+
+Cada atividade possui sua própria pasta, contendo os **arquivos do projeto** e, quando necessário, um **README específico** com explicações sobre seu funcionamento.
+
+---
+
+## 📈 Progresso
+
+|  #  | Projeto                                        | Linguagem |    Status   |
+| :-: | ---------------------------------------------- | :-------: | :---------: |
+|  01 | [🧮 Calculadora Universal](./calculadora-em-C) |     C     | ✅ Concluído |
+|  02 | Em breve...                                    |     —     |   ⏳ Futuro  |
+|  03 | Em breve...                                    |     —     |   ⏳ Futuro  |
+
+---
+
+## 👥 Equipe
+
+Este repositório contém atividades desenvolvidas durante a disciplina por:
+
+* **Piêtro Bittencourt Nunes**
+* **Zamorano Fragoso de Sousa**
+* **Gabriel Valois Rodrigues**
+* **Bernardo Kopp**
+
+---
+
+<div align="center">
+
+### 🎓 Desenvolvimento de Algoritmos e Pensamento Computacional
+
+**Repositório acadêmico • 2026**
+
+📚 Aprendendo • 💻 Programando • 🚀 Evoluindo
+
+</div>
