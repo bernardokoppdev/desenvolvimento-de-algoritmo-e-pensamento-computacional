@@ -1,316 +1,330 @@
-# 🧮 Calculadora no Flowgorithm
+# 🧮 Calculadora Universal — Flowgorithm
 
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#-calculadora-no-flowgorithm)
+![Ferramenta](https://img.shields.io/badge/Ferramenta-Flowgorithm-blue.svg)
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen.svg)
+![Funções](https://img.shields.io/badge/Fun%C3%A7%C3%B5es-20-orange.svg)
+![Disciplina](https://img.shields.io/badge/Disciplina-Algoritmos-purple.svg)
 
-## 📚 Atividade: Desenvolvimento de Algoritmo e Pensamento Computacional
+> **Atividade avaliativa da disciplina de Desenvolvimento de Algoritmos e Pensamento Computacional.**
 
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#-atividade-desenvolvimento-de-algoritmo-e-pensamento-computacional)
+---
 
-**Aluno:** BERNARDO KOPP PINHEIRO
-**Ferramenta:** Flowgorithm
-**Arquivo principal:** `calculadora.fprg`
-**Valor da atividade:** 0,5 ponto
-**Data limite:** 31/08/2026
+## 📚 Informações da Atividade
+
+| Informação               | Detalhes               |
+| ------------------------ | ---------------------- |
+| 👨‍🎓 **Aluno**          | Bernardo Kopp Pinheiro |
+| 🛠️ **Ferramenta**       | Flowgorithm            |
+| 📄 **Arquivo principal** | `calculadora.fprg`     |
+| ⭐ **Valor**              | 0,5 ponto              |
+| 📅 **Data limite**       | 31/08/2026             |
+| ✅ **Status**             | Concluído              |
 
 ---
 
 ## 🎯 Objetivo
 
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#-objetivo)
+Desenvolver uma **calculadora utilizando Flowgorithm**, aplicando conceitos fundamentais de lógica de programação e pensamento computacional.
 
-Desenvolver uma calculadora utilizando o **Flowgorithm**, aplicando conceitos fundamentais de lógica de programação, como:
+Durante o desenvolvimento foram utilizados conceitos como:
 
-- Entrada e saída de dados;
-- Declaração e utilização de variáveis;
-- Operadores matemáticos;
-- Estruturas condicionais;
-- Processamento de informações;
-- Organização de fluxogramas.
+* 📥 Entrada e saída de dados
+* 📦 Declaração e utilização de variáveis
+* ➕ Operadores matemáticos
+* 🔀 Estruturas condicionais
+* ⚙️ Processamento de informações
+* 🧩 Organização de fluxogramas
 
-O programa foi desenvolvido para disponibilizar **20 funções/operações diferentes**, permitindo que o usuário escolha uma operação, informe os valores necessários e visualize o resultado.
-
----
-
-## 📝 Descrição do programa
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#-descri%C3%A7%C3%A3o-do-programa)
-
-A calculadora apresenta um menu principal com **8 categorias de operações**. Dentro dessas categorias estão distribuídas as **20 funções implementadas no projeto**.
-
-O funcionamento ocorre da seguinte forma:
-
-1. O programa apresenta o menu principal.
-2. O usuário escolhe uma das categorias disponíveis.
-3. Dependendo da opção escolhida, o programa apresenta as operações correspondentes.
-4. O usuário informa os valores necessários para realizar o cálculo.
-5. O programa realiza o processamento utilizando operadores e estruturas condicionais.
-6. O resultado da operação é apresentado na tela.
-7. Ao final, o programa informa o encerramento da execução.
+O programa disponibiliza **20 funções/operações diferentes**, organizadas em **8 categorias**, permitindo que o usuário escolha uma operação, informe os valores necessários e visualize o resultado.
 
 ---
 
-## 🔢 20 funções implementadas
+## 📝 Funcionamento do Programa
 
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#-20-fun%C3%A7%C3%B5es-implementadas)
+O funcionamento da calculadora segue o seguinte fluxo:
 
-Abaixo está a relação completa das **20 funções/operações desenvolvidas** no programa:
-
-### 1. Área do quadrilátero
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#1-%C3%A1rea-do-quadril%C3%A1tero)
-
-Calcula a área de um quadrilátero utilizando a multiplicação entre lado e altura.
-
-**Fórmula:**
-
-`Área = lado × altura`
-
-### 2. Área do triângulo
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#2-%C3%A1rea-do-tri%C3%A2ngulo)
-
-Calcula a área de um triângulo a partir da base e da altura.
-
-**Fórmula:**
-
-`Área = (base × altura) / 2`
-
-### 3. Área do círculo
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#3-%C3%A1rea-do-c%C3%ADrculo)
-
-Calcula a área de um círculo utilizando o raio.
-
-**Fórmula:**
-
-`Área = π × raio²`
-
-### 4. Área do losango
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#4-%C3%A1rea-do-losango)
-
-Calcula a área de um losango utilizando suas diagonais maior e menor.
-
-**Fórmula:**
-
-`Área = (diagonal maior × diagonal menor) / 2`
-
-> ✅ **Funções obrigatórias — Cálculo de área:** as funções 1, 2, 3 e 4 atendem ao requisito de cálculo de área de figuras geométricas.
+1. ▶️ O programa apresenta o **menu principal**.
+2. 🔢 O usuário escolhe uma das **8 categorias disponíveis**.
+3. 📋 O programa apresenta as operações correspondentes à categoria.
+4. ⌨️ O usuário informa os valores necessários.
+5. ⚙️ Os dados são processados utilizando operadores e estruturas condicionais.
+6. 📊 O resultado da operação é exibido na tela.
+7. 🏁 O programa informa o encerramento da execução.
 
 ---
 
-### 5. Cálculo do IMC
+# 🔢 Funções Implementadas
 
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#5-c%C3%A1lculo-do-imc)
+## 📐 1–4. Cálculo de Áreas
 
-Calcula o Índice de Massa Corporal utilizando o peso e a altura informados pelo usuário.
+O programa permite calcular a área de quatro figuras geométricas diferentes.
 
-**Fórmula:**
+### 1. Área do Quadrilátero
 
-`IMC = peso / altura²`
+Calcula a área utilizando o lado e a altura.
 
-Além do valor calculado, o programa classifica o resultado como:
+```text id="plf4jk"
+Área = lado × altura
+```
 
-- Abaixo do peso;
-- Peso normal;
-- Sobrepeso;
-- Obesidade grau I;
-- Obesidade grau II;
-- Obesidade grau III.
+### 2. Área do Triângulo
 
-> ✅ **Função obrigatória — IMC:** a função 5 atende ao requisito de cálculo do Índice de Massa Corporal.
+Calcula a área utilizando a base e a altura.
+
+```text id="gn1anx"
+Área = (base × altura) / 2
+```
+
+### 3. Área do Círculo
+
+Calcula a área utilizando o raio.
+
+```text id="e4c41v"
+Área = π × raio²
+```
+
+### 4. Área do Losango
+
+Calcula a área utilizando as diagonais maior e menor.
+
+```text id="17ix6j"
+Área = (diagonal maior × diagonal menor) / 2
+```
+
+> ✅ As funções **1, 2, 3 e 4** atendem ao requisito de cálculo de áreas de figuras geométricas.
+
+---
+
+## ⚖️ 5. Cálculo do IMC
+
+Calcula o **Índice de Massa Corporal (IMC)** utilizando o peso e a altura informados pelo usuário.
+
+```text id="y23ihb"
+IMC = peso / altura²
+```
+
+Após o cálculo, o programa classifica o resultado como:
+
+| Resultado      | Classificação      |
+| -------------- | ------------------ |
+| Menor que 18,5 | Abaixo do peso     |
+| 18,5 – 24,9    | Peso normal        |
+| 25,0 – 29,9    | Sobrepeso          |
+| 30,0 – 34,9    | Obesidade grau I   |
+| 35,0 – 39,9    | Obesidade grau II  |
+| 40 ou mais     | Obesidade grau III |
+
+> ✅ A função **5** atende ao requisito de cálculo e classificação do IMC.
 
 ---
 
-### 6. Soma
+## 🧮 6–10. Calculadora Simples
 
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#6-soma)
+A calculadora possui cinco operações matemáticas.
 
-Realiza a soma entre dois valores.
-
-`resultado = a + b`
-
-### 7. Subtração
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#7-subtra%C3%A7%C3%A3o)
-
-Realiza a subtração entre dois valores.
-
-`resultado = a - b`
-
-### 8. Multiplicação
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#8-multiplica%C3%A7%C3%A3o)
-
-Realiza a multiplicação entre dois valores.
-
-`resultado = a × b`
-
-### 9. Divisão
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#9-divis%C3%A3o)
-
-Realiza a divisão entre dois valores.
-
-`resultado = a / b`
-
-### 10. Potenciação
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#10-potencia%C3%A7%C3%A3o)
-
-Calcula uma potência a partir de uma base e um expoente.
-
-`resultado = base ^ expoente`
+|   Nº   | Operação         | Cálculo           |
+| :----: | ---------------- | ----------------- |
+|  **6** | ➕ Soma           | `a + b`           |
+|  **7** | ➖ Subtração      | `a - b`           |
+|  **8** | ✖️ Multiplicação | `a × b`           |
+|  **9** | ➗ Divisão        | `a / b`           |
+| **10** | 🔢 Potenciação   | `base ^ expoente` |
 
 ---
+
+## 🌡️ 11–12. Conversão de Temperatura
 
 ### 11. Celsius para Fahrenheit
 
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#11-celsius-para-fahrenheit)
+Converte uma temperatura de graus Celsius para Fahrenheit.
 
-Converte uma temperatura em Celsius para Fahrenheit.
-
-**Fórmula:**
-
-`F = (C × 9 / 5) + 32`
+```text id="d4zwg5"
+F = (C × 9 / 5) + 32
+```
 
 ### 12. Celsius para Kelvin
 
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#12-celsius-para-kelvin)
+Converte uma temperatura de graus Celsius para Kelvin.
 
-Converte uma temperatura em Celsius para Kelvin.
-
-**Fórmula:**
-
-`K = C + 273`
+```text id="8yykhv"
+K = C + 273
+```
 
 ---
 
-### 13. Identificação de número par ou ímpar
+## 🔎 13. Identificação de Número Par ou Ímpar
 
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#13-identifica%C3%A7%C3%A3o-de-n%C3%BAmero-par-ou-%C3%ADmpar)
+Verifica se um número inteiro é **par ou ímpar** utilizando o resto da divisão.
 
-Verifica se um número inteiro é par ou ímpar utilizando o operador de resto da divisão (`%`).
+```text id="azdqma"
+número % 2
+```
 
-- Resto igual a `0` → número par;
-- Resto diferente de `0` → número ímpar.
+* Se o resto for `0` → **Número par**
+* Se o resto for diferente de `0` → **Número ímpar**
 
 ---
 
-### 14. Cálculo de desconto
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#14-c%C3%A1lculo-de-desconto)
+## 💰 14. Cálculo de Desconto
 
 Calcula o valor final de um produto após a aplicação de uma porcentagem de desconto.
 
-**Fórmula:**
-
-`Valor final = valor do produto - (valor do produto × desconto / 100)`
-
----
-
-### 15. Comparação entre valores
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#15-compara%C3%A7%C3%A3o-entre-valores)
-
-Compara dois números e informa se:
-
-- O primeiro valor é maior;
-- Os valores são iguais;
-- O segundo valor é maior.
-
----
-
-### 16. Metros para milímetros
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#16-metros-para-mil%C3%ADmetros)
-
-Converte um valor em metros para milímetros.
-
-`mm = metros × 1000`
-
-### 17. Metros para centímetros
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#17-metros-para-cent%C3%ADmetros)
-
-Converte um valor em metros para centímetros.
-
-`cm = metros × 100`
-
-### 18. Metros para decímetros
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#18-metros-para-dec%C3%ADmetros)
-
-Converte um valor em metros para decímetros.
-
-`dm = metros × 10`
-
-### 19. Metros para hectômetros
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#19-metros-para-hect%C3%B4metros)
-
-Converte um valor em metros para hectômetros.
-
-`hm = metros / 100`
-
-### 20. Metros para quilômetros
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#20-metros-para-quil%C3%B4metros)
-
-Converte um valor em metros para quilômetros.
-
-`km = metros / 1000`
-
----
-
-## 📊 Resumo das 20 funções
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#-resumo-das-20-fun%C3%A7%C3%B5es)
-
-| **NºFunçãoCategoria** |                          |                 |
-| --------------------- | ------------------------ | --------------- |
-| 1                     | Área do quadrilátero     | 📐 Área         |
-| 2                     | Área do triângulo        | 📐 Área         |
-| 3                     | Área do círculo          | 📐 Área         |
-| 4                     | Área do losango          | 📐 Área         |
-| 5                     | Cálculo do IMC           | ⚕️ IMC          |
-| 6                     | Soma                     | ➕ Calculadora   |
-| 7                     | Subtração                | ➖ Calculadora   |
-| 8                     | Multiplicação            | ✖️ Calculadora  |
-| 9                     | Divisão                  | ➗ Calculadora   |
-| 10                    | Potenciação              | 🔢 Calculadora  |
-| 11                    | Celsius → Fahrenheit     | 🌡️ Temperatura |
-| 12                    | Celsius → Kelvin         | 🌡️ Temperatura |
-| 13                    | Par ou ímpar             | 🔎 Lógica       |
-| 14                    | Cálculo de desconto      | 💰 Porcentagem  |
-| 15                    | Comparação entre valores | ⚖️ Comparação   |
-| 16                    | Metros → Milímetros      | 📏 Conversão    |
-| 17                    | Metros → Centímetros     | 📏 Conversão    |
-| 18                    | Metros → Decímetros      | 📏 Conversão    |
-| 19                    | Metros → Hectômetros     | 📏 Conversão    |
-| 20                    | Metros → Quilômetros     | 📏 Conversão    |
-
-### ✅ Contagem total: 20 funções/operações
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#-contagem-total-20-fun%C3%A7%C3%B5esopera%C3%A7%C3%B5es)
-
-**4 funções de área + 1 função de IMC + 5 operações matemáticas + 2 conversões de temperatura + 1 verificação par/ímpar + 1 cálculo de desconto + 1 comparação + 5 conversões de unidades = 20 funções.**
-
----
-
-## 🖥️ Menu principal
-
-[svg](https://github.com/zamfs/desenvolvimento-de-algoritmo-e-pensamento-computacional/tree/main/calculadora-flowgorithm#%EF%B8%8F-menu-principal)
-
-O programa possui as seguintes categorias no menu principal:
-
+```text id="a43msu"
+Valor final = valor do produto - (valor do produto × desconto / 100)
 ```
-1 - Calculadora de área
-2 - Cálculo de IMC
-3 - Calculadora simples
-4 - Conversor de temperatura
-5 - Identificação de número par ou ímpar
-6 - Cálculo de desconto
-7 - Comparador de valores
-8 - Conversor de unidades
+
+---
+
+## ⚖️ 15. Comparação entre Valores
+
+Compara dois números informados pelo usuário.
+
+O programa identifica se:
+
+* `A > B` → O primeiro valor é maior
+* `A = B` → Os valores são iguais
+* `A < B` → O segundo valor é maior
+
+---
+
+## 📏 16–20. Conversão de Unidades
+
+O programa realiza cinco conversões a partir de um valor informado em **metros**.
+
+|   Nº   | Conversão            | Cálculo         |
+| :----: | -------------------- | --------------- |
+| **16** | Metros → Milímetros  | `metros × 1000` |
+| **17** | Metros → Centímetros | `metros × 100`  |
+| **18** | Metros → Decímetros  | `metros × 10`   |
+| **19** | Metros → Hectômetros | `metros / 100`  |
+| **20** | Metros → Quilômetros | `metros / 1000` |
+
+---
+
+# 📊 Resumo das 20 Funções
+
+|  Nº | Função                   | Categoria       |
+| :-: | ------------------------ | --------------- |
+|  01 | Área do quadrilátero     | 📐 Área         |
+|  02 | Área do triângulo        | 📐 Área         |
+|  03 | Área do círculo          | 📐 Área         |
+|  04 | Área do losango          | 📐 Área         |
+|  05 | Cálculo do IMC           | ⚖️ IMC          |
+|  06 | Soma                     | ➕ Calculadora   |
+|  07 | Subtração                | ➖ Calculadora   |
+|  08 | Multiplicação            | ✖️ Calculadora  |
+|  09 | Divisão                  | ➗ Calculadora   |
+|  10 | Potenciação              | 🔢 Calculadora  |
+|  11 | Celsius → Fahrenheit     | 🌡️ Temperatura |
+|  12 | Celsius → Kelvin         | 🌡️ Temperatura |
+|  13 | Par ou ímpar             | 🔎 Lógica       |
+|  14 | Cálculo de desconto      | 💰 Porcentagem  |
+|  15 | Comparação entre valores | ⚖️ Comparação   |
+|  16 | Metros → Milímetros      | 📏 Conversão    |
+|  17 | Metros → Centímetros     | 📏 Conversão    |
+|  18 | Metros → Decímetros      | 📏 Conversão    |
+|  19 | Metros → Hectômetros     | 📏 Conversão    |
+|  20 | Metros → Quilômetros     | 📏 Conversão    |
+
+### ✅ Total: 20 funções/operações
+
+**4** funções de área + **1** cálculo de IMC + **5** operações matemáticas + **2** conversões de temperatura + **1** verificação par/ímpar + **1** cálculo de desconto + **1** comparação + **5** conversões de unidades = **20 funções**.
+
+---
+
+# 🖥️ Menu Principal
+
+Ao iniciar o programa, o usuário encontra o seguinte menu:
+
+```text id="57ozkr"
+╔══════════════════════════════════════════════╗
+║           CALCULADORA UNIVERSAL             ║
+╠══════════════════════════════════════════════╣
+║  1 - Calculadora de área                    ║
+║  2 - Cálculo de IMC                         ║
+║  3 - Calculadora simples                    ║
+║  4 - Conversor de temperatura               ║
+║  5 - Identificação de número par ou ímpar   ║
+║  6 - Cálculo de desconto                    ║
+║  7 - Comparador de valores                  ║
+║  8 - Conversor de unidades                  ║
+╚══════════════════════════════════════════════╝
 ```
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text id="gwqq7q"
+calculadora-flowgorithm/
+│
+├── calculadora.fprg
+└── README.md
+```
+
+O arquivo `calculadora.fprg` contém o fluxograma completo desenvolvido no **Flowgorithm**.
+
+---
+
+## 🧠 Conceitos Aplicados
+
+Durante o desenvolvimento do projeto foram utilizados conceitos fundamentais de algoritmos e lógica de programação:
+
+* Variáveis
+* Tipos de dados
+* Entrada e saída
+* Operadores aritméticos
+* Operadores relacionais
+* Estruturas condicionais
+* Cálculos matemáticos
+* Fluxo de execução
+* Organização lógica de algoritmos
+
+---
+
+## 🛠️ Tecnologia Utilizada
+
+### Flowgorithm
+
+O **Flowgorithm** é uma ferramenta voltada para o aprendizado de lógica de programação por meio da construção visual de fluxogramas.
+
+Neste projeto, ele foi utilizado para estruturar toda a lógica da calculadora antes de sua implementação em uma linguagem de programação.
+
+---
+
+## 🔄 Evolução do Projeto
+
+O desenvolvimento seguiu duas etapas:
+
+```text id="f68vzx"
+Flowgorithm
+     │
+     │  Algoritmo e lógica
+     ▼
+ calculadora.fprg
+     │
+     │  Implementação
+     ▼
+  Linguagem C
+     │
+     ▼
+ calculadora.c
+```
+
+A versão desenvolvida em Flowgorithm serviu como base lógica para a posterior implementação da **Calculadora Universal em C**.
+
+➡️ **[Ver versão em C](../calculadora-em-C)**
+
+---
+
+<div align="center">
+
+### 🧮 Calculadora Universal
+
+**Desenvolvimento de Algoritmos e Pensamento Computacional**
+
+`Flowgorithm` • `20 funções` • `8 categorias`
+
+🎓 **Atividade Acadêmica — 2026**
+
+</div>
